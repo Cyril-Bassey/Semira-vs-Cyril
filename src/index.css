@@ -11,3 +11,48 @@
     height: 100vh;
     /* @apply rounded-xl shadow-2xl; */
 }
+
+@keyframes moveUpDown {
+    0%, 100% {
+      bottom: 0%;
+    }
+    50% {
+      bottom: 5%;
+    }
+  }
+  
+  .bubble-animation {
+    @apply relative bottom-9 left-1/4 overflow-hidden  transform -translate-x-1/2;
+    animation: moveUpDown 4s infinite ease-in-out;
+  }
+
+  /* Container for handling hover states */
+  .dropdown-container {
+    position: relative;
+    display: flex;
+  }
+
+  .dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 60px; /* Adjust to the desired offset */
+    left: 0;
+    z-index: 10;
+    transition: opacity 0.5s ease, visibility 0.5s ease; 
+    /* Short transition for fade effect */
+  }
+
+  /* Show the dropdown on hover */
+  .dropdown-container:hover .dropdown-menu,
+  .dropdown-menu:hover {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s; /* Instant show */
+  }
+
+  /* Keep the dropdown visible for 2 seconds after mouse leaves */
+  /* .dropdown-container:hover .dropdown-menu { */
+    /* transition-delay: 3s;  */
+    /* Delay hiding */
+  /* } */
