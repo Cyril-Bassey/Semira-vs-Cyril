@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './Components/Pages/HomePage/HomePage';
+import HomePage from './Components/Pages/HomePage';
 
 
 const App = () => {
