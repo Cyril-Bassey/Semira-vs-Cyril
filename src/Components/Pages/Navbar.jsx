@@ -5,15 +5,16 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='w-full bg-white h-[80px] top-0 flex justify-around border-b-2 sticky'>
+      <div className='w-full bg-white h-[80px] top-0 flex justify-around border-b-2 sticky z-50'>
         <div id='Logo' className='border border-white w-[20%] flex justify-center items-center'>
           <img src="https://belkins.io/assets/belkins-logo-light-UwcyCLNU.svg" alt="" className='w-[100px] h-auto sm:w-[150px] sm:h-[30px] lg:w-[200px] lg:h-[40px]' />
         </div>
+
         <div className='hidden lg:block lg:border border-white content-center lg:w-[45%]'>
           <ul className='flex justify-between w-[100%]'>
 
             
-            <li className="dropdown-container  flex items-center text-black hover:text-[#FF6600] cursor-pointer text-[15px]">   
+            <li className="dropdown-container flex items-center text-black hover:text-[#FF6600] cursor-pointer text-[15px]">   
                 What we do
                 <span><IoMdArrowDropdown /> </span>
               <ul className="dropdown-menu w-48 bg-white shadow-lg rounded-md">
