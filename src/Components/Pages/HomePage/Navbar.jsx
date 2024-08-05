@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { IoMdArrowDropdown } from "react-icons/io";
 
 const Navbar = () => {
