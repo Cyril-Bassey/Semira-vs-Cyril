@@ -1,0 +1,25 @@
+{
+    "All_Services": [
+    {
+    "id":"lead",
+    "name":"LinkedIn lead generation agency1",
+    "sub_heading":"Start getting deals from LinkedIn1",
+    "description":"We create tailored outreach campaigns to hook prospects and convert quality B2B leads from either your company or personal LinkedIn profile.",
+    "image":"https://belkins.directus.app/assets/ed72d3b3-3c19-4c8d-a63b-9169ed4cea43?fit=inside&format=webp"
+},
+{
+    "id":"gen",
+    "name":"LinkedIn lead generation agency2",
+    "sub_heading":"Start getting deals from LinkedIn2",
+    "description":"We create tailored outreach campaigns to hook prospects and convert quality B2B leads from either your company or personal LinkedIn profile.",
+    "image":"https://belkins.directus.app/assets/ed72d3b3-3c19-4c8d-a63b-9169ed4cea43?fit=inside&format=webp"
+},
+{
+    "id":"led",
+    "name":"LinkedIn lead generation agency3",
+    "sub_heading":"Start getting deals from LinkedIn3",
+    "description":"We create tailored outreach campaigns to hook prospects and convert quality B2B leads from either your company or personal LinkedIn profile.",
+    "image":"https://belkins.directus.app/assets/ed72d3b3-3c19-4c8d-a63b-9169ed4cea43?fit=inside&format=webp"
+}
+]
+}
