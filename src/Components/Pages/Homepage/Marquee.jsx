@@ -1,6 +1,6 @@
 import React from 'react'
-import logo1 from "../../images/OIP (1).jpeg"
-import logo2 from "../../images/OIP.jpeg"
+import logo1 from "../../../images/OIP (1).jpeg"
+import logo2 from "../../../images/OIP.jpeg"
 
 const Marquee = () => {
   return (

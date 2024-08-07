@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './Components/Pages/HomePage';
+import HomePage from "./Components/Pages/Homepage/HomePage.jsx"
 import 'flowbite';
 import AdminLayout from './Components/Pages/Admin/AdminLayout';
 import MainContent from './Components/Pages/Admin/MainView';
