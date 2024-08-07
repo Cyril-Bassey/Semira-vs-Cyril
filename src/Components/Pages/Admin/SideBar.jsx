@@ -15,7 +15,7 @@ const Sidebar = () => {
                     <h1>MENU</h1>
                     <Link to="/Admin" className=" block px-2 py-1 rounded hover:bg-gray-700"><span className=''><MdOutlineDashboard /></span><p>DASHBOARD</p>
                     </Link>
-                    <Link to="/admin/services" className=" block  px-2 py-1 rounded hover:bg-gray-700"><span><IoIosAddCircle /></span><p>Add Services </p></Link>
+                    <Link to="/admin/addservices" className=" block  px-2 py-1 rounded hover:bg-gray-700"><span><IoIosAddCircle /></span><p>Add Services </p></Link>
                     <Link to="/admin/page2" className=" block px-2 py-1 rounded hover:bg-gray-700"><span></span><p>Blog Posts </p></Link>
                     <Link to="/admin/page2" className=" block px-2 py-1 rounded hover:bg-gray-700"><span></span><p>Comments </p></Link>
                     <Link to="/admin/page2" className=" block px-2 py-1 rounded hover:bg-gray-700"><span></span><p>Contacts </p></Link>
