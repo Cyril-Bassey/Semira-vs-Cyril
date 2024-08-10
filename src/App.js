@@ -5,7 +5,7 @@ import AdminLayout from './Components/Pages/Admin/AdminLayout';
 import MainContent from './Components/Pages/Admin/MainView';
 import Page1 from './Components/Pages/Admin/AdminPages/Page1.jsx';
 import UpdateServices from './Components/Pages/Admin/AdminPages/UpdateServices.jsx';
-import ServicesParameters from './Components/Pages/ServicesPage/ServicesParameters.jsx';
+import ServicesPage from './Components/Pages/ServicesPage/Services.jsx';
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
           <Route path="page1" element={<Page1 />} />
           <Route path="addservices" element={<UpdateServices />} />
         </Route>
-        < Route path="/services/:id" element={<ServicesParameters />} />
+        < Route path="/services/:id" element={<ServicesPage />} />
       </Routes>
     </Router>
   );

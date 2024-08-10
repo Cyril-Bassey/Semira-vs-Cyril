@@ -5,28 +5,33 @@
     "name":"LinkedIn lead generation agency341",
     "sub_heading":"Start getting deals from LinkedIn1",
     "description":"We create tailored outreach campaigns to hook prospects and convert quality B2B leads from either your company or personal LinkedIn profile.",
-    "image":"https://belkins.directus.app/assets/ed72d3b3-3c19-4c8d-a63b-9169ed4cea43?fit=inside&format=webp"
+    "image":"https://belkins.directus.app/assets/ed72d3b3-3c19-4c8d-a63b-9169ed4cea43?fit=inside&format=webp",
+    "button_text":"Get a Quote"
+
 },
 {
     "id":"gen12",
     "name":"LinkedIn lead generation agency2",
     "sub_heading":"Start getting deals from LinkedIn342",
     "description":"We create tailored outreach campaigns to hook prospects and convert quality B2B leads from either your company or personal LinkedIn profile.",
-    "image":"https://belkins.directus.app/assets/ed72d3b3-3c19-4c8d-a63b-9169ed4cea43?fit=inside&format=webp"
+    "image":"https://belkins.directus.app/assets/ed72d3b3-3c19-4c8d-a63b-9169ed4cea43?fit=inside&format=webp",
+    "button_text":"Book a Call"
 },
 {
     "id":"led1",
     "name":"LinkedIn lead generation agency3",
     "sub_heading":"Start getting deals from LinkedIn3",
     "description":"We create tailored outreach campaigns to hook prospects and convert quality B2B leads from either your company or personal LinkedIn profile.",
-    "image":"https://belkins.directus.app/assets/ed72d3b3-3c19-4c8d-a63b-9169ed4cea43?fit=inside&format=webp"
+    "image":"https://belkins.directus.app/assets/ed72d3b3-3c19-4c8d-a63b-9169ed4cea43?fit=inside&format=webp",
+    "button_text":"Reach us Here"
 },
 {
     "id":"led1234",
     "name":"LinkedIn lead generation agency3234",
     "sub_heading":"Start getting deals from LinkedIn3",
     "description":"We create tailored outreach campaigns to hook prospects and convert quality B2B leads from either your company or personal LinkedIn profile.",
-    "image":"https://belkins.directus.app/assets/ed72d3b3-3c19-4c8d-a63b-9169ed4cea43?fit=inside&format=webp"
+    "image":"https://belkins.directus.app/assets/ed72d3b3-3c19-4c8d-a63b-9169ed4cea43?fit=inside&format=webp",
+    "button_text":"We are waiting"
 }
 ]
 }
