@@ -62,7 +62,7 @@ body{
     /* animation-duration: 5s; */
     /* animation-iteration-count: infinite; */
     position: absolute;
-    animation: logos 10s linear infinite;
+    animation: logos 50s linear infinite;
     overflow: hidden;
   }
   .card{
@@ -113,3 +113,16 @@ body{
   /* overflow: hidden; */
   /* text-overflow: ellipsis; */
  }
+
+ @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .animate-marquee {
+    animation: marquee 60s linear infinite;
+  }

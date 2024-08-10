@@ -1,7 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { IoMdArrowDropdown } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+
+  const [services, setServices] = useState([]);
+  useEffect(() => {
+    fetch('http://localhost:3004/All_Services')
+      .then((response) => response.json())
+      .then((json) => {
+        console.log(json);
+        setServices(json);
+      });
+  }, []);
 
   return (
     <>
@@ -17,12 +28,31 @@ const Navbar = () => {
             <li className="dropdown-container flex items-center text-black hover:text-[#FF6600] cursor-pointer text-[15px]">   
                 What we do
                 <span><IoMdArrowDropdown /> </span>
-              <ul className="dropdown-menu w-48 bg-white shadow-lg rounded-md">
-                <li className="px-4 py-2 hover:bg-gray-200">Service 1 </li>
+              <ul className="dropdown-menu flex w-[700px] bg-white shadow-lg rounded-md">
+                <div className='w-[400px] border '>
+
+                </div>
+                <ul className='border w-[150px]'>
+                
+                {services.map((data) => (
+                <Link key={data.id} to={`/services/${data.id}`}>
+                <li className="px-4 py-2 hover:bg-gray-200">{data.id}</li>
+                </Link>
+              ))}
                 <li className="px-4 py-2 hover:bg-gray-200">Service 2 </li>
                 <li className="px-4 py-2 hover:bg-gray-200">Service 3 </li>
+                <li className="px-4 py-2 hover:bg-gray-200">Service 4 </li>
+                <li className="px-4 py-2 hover:bg-gray-200">Service 5 </li>
+                  </ul>
+                <ul>
+                <li className="px-4 py-2 hover:bg-gray-200">Service 6 </li>
+                <li className="px-4 py-2 hover:bg-gray-200">Service 7 </li>
+                <li className="px-4 py-2 hover:bg-gray-200">Service 8 </li>
+                <li className="px-4 py-2 hover:bg-gray-200">Service 9 </li>
+                <li className="px-4 py-2 hover:bg-gray-200">Service 10 </li>
+                  </ul>
               </ul>
-            </li>
+              </li>
             <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[12px] sm:text-[14px] md:text-[15px]">Solutions<span><IoMdArrowDropdown /></span></li>
             <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[12px] sm:text-[14px] md:text-[15px]">Customer Success<span><IoMdArrowDropdown /></span></li>
             <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[12px] sm:text-[14px] md:text-[15px]">Learn<span><IoMdArrowDropdown /></span></li>
