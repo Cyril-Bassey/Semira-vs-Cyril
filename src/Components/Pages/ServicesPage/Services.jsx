@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from '../Navbar'
 import ServicesParameters from './SectionOne'
 import Marquee from '../Marquee'
+import SectionTwo from './SectionTwo'
 
 const ServicesPage = () => {
   return (
@@ -10,6 +11,7 @@ const ServicesPage = () => {
       <Navbar />
       <ServicesParameters />
       <Marquee />
+      <SectionTwo />
 
     </div>
   )
