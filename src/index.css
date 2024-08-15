@@ -62,17 +62,17 @@ body{
     /* animation-duration: 5s; */
     /* animation-iteration-count: infinite; */
     position: absolute;
-    animation: logos 50s linear infinite;
+    animation: logos 10s linear infinite;
     overflow: hidden;
   }
   .card{
-    transition: transform 1s;
+    transition: transform 0.5s;
     position: relative;
     overflow: hidden;
   }
 
   .card:hover{
-    transform: translateY(-20px);
+    transform: translateY(-15px);
   }
 
 

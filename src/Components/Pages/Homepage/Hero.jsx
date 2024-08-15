@@ -1,6 +1,6 @@
 import React from 'react'
-import Bubble from '../../images/bubbles-png-11414.png'
-import Popover from '../../images/bubbles-png-11420.png'
+import Bubble from '../../../images/bubbles-png-11414.png'
+import Popover from '../../../images/bubbles-png-11420.png'
 
 const Hero = () => {
     return (
