@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { IoMdArrowDropdown } from "react-icons/io";
 import { Link } from 'react-router-dom';
+import logo from "../../../images/upperhand_logo.png"
 
 const Navbar = () => {
 
@@ -18,7 +19,7 @@ const Navbar = () => {
     <>
       <div className='w-full bg-white h-[80px] top-0 flex justify-around border-b-2 sticky z-50'>
         <div id='Logo' className='border border-white w-[20%] flex justify-center items-center'>
-          <img src="https://belkins.io/assets/belkins-logo-light-UwcyCLNU.svg" alt="" className='w-[100px] h-auto sm:w-[150px] sm:h-[30px] lg:w-[200px] lg:h-[40px]' />
+          <img src={logo} alt="" className='w-3/5' />
         </div>
 
         <div className='hidden lg:block lg:border border-white content-center lg:w-[45%]'>
