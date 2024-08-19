@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { IoIosArrowForward } from "react-icons/io";
-import Navbar from '../Navbar';
+// import Navbar from '../Navbar';
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from "react-redux";
 import { fetchData } from "../../../Redux/Actions";
