@@ -1,18 +1,19 @@
-import { combineReducers } from "redux";
-import { configureStore } from "@reduxjs/toolkit";
-import { thunk } from "redux-thunk";
-import { composeWithDevTools } from "@redux-devtools/extension";
-import servicesdataReducer from "./Reducer";
+import { configureStore } from '@reduxjs/toolkit';
+import { thunk } from 'redux-thunk';
+import { combineReducers, applyMiddleware } from 'redux';
+import postReducer from './Reducer';
+import { composeWithDevTools } from '@redux-devtools/extension';
+
 
 const rootReducer = combineReducers({
-  data: servicesdataReducer,
-  // other reducers can be added here
+    post: postReducer,
 });
 
 const store = configureStore({
-    reducer: rootReducer,  // <-- Corrected the usage
-    middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(thunk), // Optional: Add thunk if not included by default
-    devTools: composeWithDevTools(),  // Optional: Include devTools if needed
-  });
+  reducer: rootReducer, 
+  post: postReducer,  
+  applyMiddleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(thunk), 
+  devTools: composeWithDevTools(),
+});
 
-  export default store;
+export default store;

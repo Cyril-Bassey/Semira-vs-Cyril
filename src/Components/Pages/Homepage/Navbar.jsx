@@ -7,7 +7,7 @@ const Navbar = () => {
 
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:3004/All_Services')
+    fetch('http://localhost:4000/postTitle')
       .then((response) => response.json())
       .then((json) => {
         console.log(json);
@@ -19,15 +19,15 @@ const Navbar = () => {
     <>
       <div className='w-full bg-white h-[80px] top-0 flex justify-around border-b-2 sticky z-50'>
         <div id='Logo' className='border border-white w-[20%] flex justify-center items-center'>
-          <img src={logo} alt="" className='w-3/5' />
+          <img src="https://bybinitiative.com/wp-content/uploads/2023/06/Horizontal-Logo_Colour-1-300x300.png" alt="" className='w-3/5' />
         </div>
 
         <div className='hidden lg:block lg:border border-white content-center lg:w-[45%]'>
-          <ul className='flex justify-between w-[100%]'>
+          <ul className='flex justify-around w-[100%]'>
 
             
-            <li className="dropdown-container flex items-center text-black hover:text-[#FF6600] cursor-pointer text-[15px]">   
-                What we do
+            <li className="dropdown-container  flex items-center text-black hover:text-[#FF6600] cursor-pointer text-[15px]">   
+                Resources
                 <span><IoMdArrowDropdown /> </span>
               <ul className="dropdown-menu flex w-[700px] bg-white shadow-lg rounded-md">
                 <div className='w-[400px] border '>
@@ -54,15 +54,13 @@ const Navbar = () => {
                   </ul>
               </ul>
               </li>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[12px] sm:text-[14px] md:text-[15px]">Solutions<span><IoMdArrowDropdown /></span></li>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[12px] sm:text-[14px] md:text-[15px]">Customer Success<span><IoMdArrowDropdown /></span></li>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[12px] sm:text-[14px] md:text-[15px]">Learn<span><IoMdArrowDropdown /></span></li>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[12px] sm:text-[14px] md:text-[15px]">Company<span><IoMdArrowDropdown /></span></li>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[12px] sm:text-[14px] md:text-[15px]">Pricing<span><IoMdArrowDropdown /></span></li>
+            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[12px] sm:text-[14px] md:text-[15px]">Blog<span><IoMdArrowDropdown /></span></li>
+            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[12px] sm:text-[14px] md:text-[15px]">Bible Study<span><IoMdArrowDropdown /></span></li>
+            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[12px] sm:text-[14px] md:text-[15px]">About us<span><IoMdArrowDropdown /></span></li>
           </ul>
         </div>
         <div className="w-[20%] flex items-center justify-end pr-4">
-          <button className="bg-[#FF6600] rounded-lg w-[80px] h-8 text-white hover:bg-[#773d17] font-semibold text-[10px] sm:w-[100px] sm:h-10 sm:text-[12px] md:w-[120px] md:h-12 md:text-[14px] lg:w-[100px] lg:h-10 lg:text-[15px]">Book a call</button>
+          <button className="bg-[#FF6600] rounded-lg w-[80px] h-8 text-white hover:bg-[#773d17] font-semibold text-[10px] sm:w-[100px] sm:h-10 sm:text-[12px] md:w-[120px] md:h-12 md:text-[14px] lg:w-[100px] lg:h-10 lg:text-[15px]">An Opt Here</button>
         </div>
         {/* Mobile Menu Button */}
         <div className="lg:hidden flex items-center">

@@ -6,6 +6,8 @@ import SecTwo from "./SecTwo"
 import CarouselSlide from "./Carousel"
 import SecFive from "./SecFive"
 import SecSix from "./SecSix"
+import SectionFour from './SectionFour'
+
 
 const HomePage = () => {
   return (
@@ -16,6 +18,7 @@ const HomePage = () => {
         <SecTwo />
         <CarouselSlide />
         <SecFive />
+        < SectionFour />
         <SecSix />
     </>
   )

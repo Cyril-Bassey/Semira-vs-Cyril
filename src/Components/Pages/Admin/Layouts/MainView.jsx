@@ -1,6 +1,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import UpdateServices from './AdminPages/UpdateServices';
+import UpdateServices from '../Forms/UpdateServices';
+// import UpdatePostForm from '../AdminPages/Forms/UpdateBlogPosts';
+import SignUp from '../Forms/AddUser';
+import UpdateBlog from '../Forms/UpdateBlogPosts';
+import Posts from '../Forms/AllBlogPosts';
+import EditBlog from '../Forms/EditBlogPostsCopy';
 
 const Home = () => <div>Home Page</div>;
 const Page1 = () => <div>Page 1</div>;
@@ -15,7 +20,11 @@ const MainContent = () => {
         <Route path="/" element={<Home />} />
         <Route path="/page1" element={<Page1 />} />
         <Route path="/services" element={<UpdateServices />} />
+        <Route path="/updateBlog" element={<UpdateBlog />} />
+        <Route path="/editBlog/:id" element={<EditBlog />} />
         <Route path="/page3" element={<Page3 />} />
+        <Route path="/add-user" element={<SignUp />} />
+        <Route path="/blogposts" element={<Posts />} />
       </Routes>
     </div>
   );

@@ -20,8 +20,8 @@ const style ={
   return (
     <>
         <div className='h-fit md:h-[80vh] p-5' >
-            <div className='h-full p-5 content-center' style={style}>
-            <h1 className='text-4xl md:text-7xl font-extrabold text-white mb-3'>Our Services</h1>
+            <div className='h-full p-5 content-center rounded-3xl' style={style}>
+            <h1 className='text-4xl md:text-7xl font-extrabold text-white mb-3'>Our Podcasts</h1>
             <p className='text-white font-bold text-lg mb-4'>Our company offers services accross the following sectors</p>
 
             <div className='grid md:flex items-center gap-5 mt-12'>
@@ -40,8 +40,8 @@ const style ={
                 <div className='w-full md:w-[200px] h-[200px] bg-gray-600 content-center rounded-md card'>
                     <p className='text-white text-center text-xl font-bold'>Financial Services</p>
                 </div>
-                <button className='bg-[#FF6600] flex items-center rounded-lg w-full md:w-fit p-3 gap-2  text-white hover:bg-[#773d17] font-semibold '>
-                     View other services  <FaArrowRight className='text-2xl'/>
+                <button className='bg-[#FF6600] flex items-center rounded-lg w-auto md:w-[140px] p-3 gap-2  text-white hover:bg-[#773d17] font-semibold '>
+                     See more  <FaArrowRight className='text-2xl'/>
                 </button>
             </div>
             </div>

@@ -32,7 +32,7 @@ const SectionTwo = () => {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
     };
-    const [selectedOption, setSelectedOption] = useState('');
+    const [selectedOption, setSelectedOption] = useState('option1');
 
     const handleOptionChange = (event) => {
         setSelectedOption(event.target.value);
@@ -64,6 +64,7 @@ const SectionTwo = () => {
                                 value="option1"
                                 onChange={handleOptionChange}
                                 className="hidden peer"
+                                checked={selectedOption === 'option1'}
                             />
                             <label
                                 htmlFor="p1"
@@ -113,15 +114,15 @@ const SectionTwo = () => {
                         <div className='border rounded-2xl bg-white w-full md:w-[50%] h-auto mt-4 md:mt-0'>
                             <div className="mt-6 p-4 text-black text-lg rounded flex justify-center">
                                 {selectedOption === 'option1' && (
-                                       <div className='p-6'>
-                                       <h1 className='text-xl mb-4 font-bold'>Put your solution in front of actual decision-makers</h1>
-                                       <p className='text-base'>We audit and update your profile, build a relevant network of ICP matches via personalized connection requests, and follow up with them to schedule appointments.</p>
-                                       <div>
-                                           <button className='rounded-2xl bg-[#FF5E00] p-3 mt-6 text-l font-semibold text-white'>
-                                               Book a call
-                                           </button>
-                                       </div>
-                                   </div>
+                                    <div className='p-6'>
+                                        <h1 className='text-xl mb-4 font-bold'>Put your solution in front of actual decision-makers</h1>
+                                        <p className='text-base'>We audit and update your profile, build a relevant network of ICP matches via personalized connection requests, and follow up with them to schedule appointments.</p>
+                                        <div>
+                                            <button className='rounded-2xl bg-[#FF5E00] p-3 mt-6 text-l font-semibold text-white'>
+                                                Book a call
+                                            </button>
+                                        </div>
+                                    </div>
                                 )}
                                 {selectedOption === 'option2' && (
                                     <div className='p-6'>
@@ -135,25 +136,23 @@ const SectionTwo = () => {
                                     </div>
                                 )}
                                 {selectedOption === 'option3' && (
-                                       <div className='p-6'>
-                                       <h1 className='text-xl mb-4 font-bold'>Showcase your expertise on LinkedIn</h1>
-                                       <p className='text-base'>We help you cut through the clutter by combining powerful content strategies and consistent engagement to amplify your voice as a thought leader and attract the right clients.</p>
-                                       <div>
-                                           <button className='rounded-2xl bg-[#FF5E00] p-3 mt-6 text-l font-semibold text-white'>
-                                               Book a call
-                                           </button>
-                                       </div>
-                                   </div>
+                                    <div className='p-6'>
+                                        <h1 className='text-xl mb-4 font-bold'>Showcase your expertise on LinkedIn
+                                        </h1>
+                                        <p className='text-base'>We help you cut through the clutter by combining powerful content strategies and consistent engagement to amplify your voice as a thought leader and attract the right clients.</p>
+                                        <div>
+                                            <button className='rounded-2xl bg-[#FF5E00] p-3 mt-6 text-l font-semibold text-white'>
+                                                Book a call
+                                            </button>
+                                        </div>
+                                    </div>
                                 )}
                             </div>
                         </div>
                     </div>
-                    
-                    </div>
+                </div>
             </div>
         </div>
-
-
     )
 }
 
