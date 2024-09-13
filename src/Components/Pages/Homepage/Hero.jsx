@@ -11,15 +11,13 @@ const Hero = () => {
 
             <div className='w-full p-5 text-center md:w-[50%] h-[100%] content-center block items-center'>  
                 <p className='text-md md:text-xl text-[#FF6600] flex justify-center font-bold'>
-                    B2B LEAD GENERATION AGENCY
+                Lorem ipsum dolor
                 </p>
                 <h1 className='text-4xl md:text-7xl font-bold text-center mt-5'>
-                    Close more deals
-                    with ROI-focused
-                    lead acquisition
+                    Lorem ipsum dolor sit consecte consec sicing
                 </h1>
                 <p className='mt-5 md:mt-9 text-center text-lg'>
-                    Belkins combines a result-oriented approach and industry-proven expertise to help you build a consistent and predictable sales channel.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto expedita quisquam exercitationem corporis sed?
                 </p>
 
                 <div className='flex justify-center text-center  mt-6'>

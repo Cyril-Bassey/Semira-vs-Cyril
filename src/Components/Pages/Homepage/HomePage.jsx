@@ -6,6 +6,12 @@ import SecTwo from "./SecTwo"
 import CarouselSlide from "./Carousel"
 import SecFive from "./SecFive"
 import SecSix from "./SecSix"
+import AwardsSection from './AwardSection'
+import IndustriesSection from './YourIndustryTailoredSolution'
+import TeamSection from './TeamSection'
+import Footer from './Footer'
+import KnowledgeSection from './KnowledgeSection'
+import GrowthSection from './DedicatedToYourGrowth'
 
 const HomePage = () => {
   return (
@@ -16,7 +22,13 @@ const HomePage = () => {
         <SecTwo />
         <CarouselSlide />
         <SecFive />
+        <AwardsSection />
+        <IndustriesSection />
+        <TeamSection />
+        <GrowthSection />
         <SecSix />
+        <KnowledgeSection />
+        <Footer />
     </>
   )
 }

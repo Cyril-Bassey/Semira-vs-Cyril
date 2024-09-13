@@ -4,14 +4,14 @@ import CardProps from './CardProps'
 
 const SecTwo = () => {
   return (
-    <>
-      <div className='p-8'>
+    <div className='w-screen '>
+      <div className='p:2 lg:p-8  '>
        <p className='text-4xl md:text-6xl font-bold mb-3 text-center'>Lead generation <br />
        services that win clients</p>
        <p className='text-center text-md text-gray-500'>You can put all your energy into scaling your business while we set up a <br /> consistent stream of vetted business leads to your pipeline.</p>
     </div>
 
-    <div className='px-20 grid md:grid-cols-4 gap-5'>
+    <div className='px-3 mt-5 lg:mt-0 lg:px-20 grid md:grid-cols-4 gap-5' >
       <CardProps 
       slanttext={"POPULAR"}
       title={"Appointment Setting"}
@@ -42,7 +42,7 @@ const SecTwo = () => {
       title={"Account based marketing"}
       text={"Build strong partnerships with high-value accounts with hyper-targeted and personalized outreach campaigns."}/>
     </div>
-    </>
+    </div>
   )
 }
 

@@ -93,12 +93,12 @@ body{
 }
 
  .card:hover .arrow-container{
-  background-color: orangered;
+  background-color: yellowred;
   border-radius: 50%;
   /* padding: 30px; */
  }
  .card:hover .title{
-  color: orangered;
+  color: yellowred;
  }
  .slant-container{
   /* background-color: palevioletred; */
