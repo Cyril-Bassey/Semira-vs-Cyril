@@ -14,7 +14,7 @@ const NotFoundPage = () => {
                 <div className="mb-8">
                     <img
                         className="w-full h-64 object-cover rounded-lg mx-auto"
-                        src="https://source.unsplash.com/featured/?"
+                        src="https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g"
                         alt="404"
                     />
                 </div>

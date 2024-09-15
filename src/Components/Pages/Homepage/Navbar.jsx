@@ -92,12 +92,12 @@ const Navbar = () => {
               <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Home</li>
             </NavLink>
             <NavLink exact to={"/blog"} onClick={toggleMobileMenu}>
-              <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Blog</li>
+              <li className="flex p-4 items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Blog</li>
             </NavLink>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Podcast</li>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Resources</li>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Community</li>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Pricing</li>
+            <li className="flex p-4 items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Podcast</li>
+            <li className="flex p-4 items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Resources</li>
+            <li className="flex p-4 items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Community</li>
+            <li className="flex p-4 items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Pricing</li>
             <button className="mt-4 bg-[#FF6600] rounded-lg w-[100px] h-10 text-white hover:bg-[#773d17] font-semibold text-[14px]">
               Book a Call
             </button>

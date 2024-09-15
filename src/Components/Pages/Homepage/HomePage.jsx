@@ -14,6 +14,7 @@ import KnowledgeSection from './KnowledgeSection'
 import GrowthSection from './DedicatedToYourGrowth'
 import Hero2 from './Hero2'
 import Header from './Hero2Prop'
+import CaseStudy from '../What We Do/Components/MainCaseStudy'
 
 const HomePage = () => {
   return (
@@ -25,7 +26,8 @@ const HomePage = () => {
         <Marquee />
         </div>
         <SecTwo />
-        <CarouselSlide />
+        <CaseStudy/>
+        {/* <CarouselSlide /> */}
         {/* <SecFive /> */}
         <AwardsSection />
         <IndustriesSection />
