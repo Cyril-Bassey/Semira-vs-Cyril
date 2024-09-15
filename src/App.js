@@ -7,6 +7,7 @@ import Page1 from './Components/Pages/Admin/AdminPages/Page1.jsx';
 import UpdateServices from './Components/Pages/Admin/AdminPages/UpdateServices.jsx';
 import ServicesPage from './Components/Pages/ServicesPage/Services.jsx';
 import AppointmentSettings from './Components/Pages/What We Do/AppointmentSettings.jsx';
+import NotFoundPage from './Components/Pages/Homepage/NotFound.jsx';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="addservices" element={<UpdateServices />} />
         </Route>
         < Route path="/services/:id" element={<ServicesPage />} />
+        < Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Router>
   );
