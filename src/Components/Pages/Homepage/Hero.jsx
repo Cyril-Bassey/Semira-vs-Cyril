@@ -4,19 +4,19 @@ import Popover from '../../../images/bubbles-png-11420.png'
 
 const Hero = () => {
     return (
-        <div className='h-screen  bg-[#F5F5F5] flex justify-between'>
+        <div className='h-screen  bg-[#101010] flex justify-between'>
             <div className='hidden md:block w-[20%] h-[100%]'>
                 <img src={Bubble} className='object-cover bubble-animation' alt="" />
             </div>
 
             <div className='w-full p-5 text-center md:w-[50%] h-[100%] content-center block items-center'>  
-                <p className='text-md md:text-xl text-[#FF6600] flex justify-center font-bold'>
+                <p className='text-md md:text-xl text-[#ffff00] flex justify-center font-bold'>
                 Lorem ipsum dolor
                 </p>
-                <h1 className='text-4xl md:text-7xl font-bold text-center mt-5'>
+                <h1 className='text-4xl md:text-7xl text-[#ffff00] font-bold text-center mt-5'>
                     Lorem ipsum dolor sit consecte consec sicing
                 </h1>
-                <p className='mt-5 md:mt-9 text-center text-lg'>
+                <p className='mt-5 md:mt-9 text-center text-lg text-[#ffff00]'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto expedita quisquam exercitationem corporis sed?
                 </p>
 

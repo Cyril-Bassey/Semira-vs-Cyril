@@ -6,12 +6,14 @@ import MainContent from './Components/Pages/Admin/MainView';
 import Page1 from './Components/Pages/Admin/AdminPages/Page1.jsx';
 import UpdateServices from './Components/Pages/Admin/AdminPages/UpdateServices.jsx';
 import ServicesPage from './Components/Pages/ServicesPage/Services.jsx';
+import AppointmentSettings from './Components/Pages/What We Do/AppointmentSettings.jsx';
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/appointment-setting" element={<AppointmentSettings />} />
         <Route path="/Admin" element={<AdminLayout />}>
           <Route index element={<MainContent />} />
           <Route path="page1" element={<Page1 />} />

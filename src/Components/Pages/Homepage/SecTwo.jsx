@@ -4,7 +4,7 @@ import CardProps from './CardProps'
 
 const SecTwo = () => {
   return (
-    <div className='w-screen '>
+    <div className='w-screen mt-7 lg:mt-0'>
       <div className='p:2 lg:p-8  '>
        <p className='text-4xl md:text-6xl font-bold mb-3 text-center'>Lead generation <br />
        services that win clients</p>

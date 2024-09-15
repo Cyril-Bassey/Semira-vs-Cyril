@@ -60,7 +60,7 @@ const Footer = () => {
                 <li><a href="#" className="hover:text-yellow-400 text-xs">Lead nurturing</a></li>
                 <li><a href="#" className="hover:text-yellow-400 text-xs">Lead research</a></li>
                 <li><a href="#" className="hover:text-yellow-400 text-xs">Pricing</a></li>
-                <li><a href="#" className="hover:text-yellow-400 text-xs">Switch to Belkins</a></li>
+                <li><a href="#" className="hover:text-yellow-400 text-xs">Switch to Upper Hand Market</a></li>
               </ul>
             </div>
 
@@ -71,7 +71,7 @@ const Footer = () => {
                 <li><a href="#" className="hover:text-yellow-400 text-xs">Lead nurturing</a></li>
                 <li><a href="#" className="hover:text-yellow-400 text-xs">Lead research</a></li>
                 <li><a href="#" className="hover:text-yellow-400 text-xs">Pricing</a></li>
-                <li><a href="#" className="hover:text-yellow-400 text-xs">Switch to Belkins</a></li>
+                <li><a href="#" className="hover:text-yellow-400 text-xs">Switch to Upper Hand Market</a></li>
               </ul>
             </div>
           </div>

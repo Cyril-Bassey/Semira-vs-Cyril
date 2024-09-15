@@ -12,16 +12,21 @@ import TeamSection from './TeamSection'
 import Footer from './Footer'
 import KnowledgeSection from './KnowledgeSection'
 import GrowthSection from './DedicatedToYourGrowth'
+import Hero2 from './Hero2'
+import Header from './Hero2Prop'
 
 const HomePage = () => {
   return (
     <>
         <Navbar />
-        <Hero />
+        {/* <Hero /> */}
+        <Header />
+        <div className='hidden lg:block'>
         <Marquee />
+        </div>
         <SecTwo />
         <CarouselSlide />
-        <SecFive />
+        {/* <SecFive /> */}
         <AwardsSection />
         <IndustriesSection />
         <TeamSection />
