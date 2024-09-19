@@ -16,14 +16,17 @@ import Hero2 from './Hero2'
 import Header from './Hero2Prop'
 import CaseStudy from '../What We Do/Components/MainCaseStudy'
 
+// import HeroSection from './test'
+
 const HomePage = () => {
   return (
     <>
         <Navbar />
         {/* <Hero /> */}
+        {/* <HeroSection /> */}
         <Header />
         <div className='hidden lg:block'>
-        <Marquee />
+        {/* <Marquee /> */}
         </div>
         <SecTwo />
         <CaseStudy/>

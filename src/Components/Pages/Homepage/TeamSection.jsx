@@ -33,6 +33,14 @@ const teamRoles = [
     image: 'https://placehold.co/100', // Replace with the appropriate image link
     video: 'https://www.youtube.com/embed/sample',
   },
+  {
+    id: 'Test',
+    title: 'Test content',
+    description:
+      'Lead researchers work to ensure the quality and accuracy of the leads sourced for your campaign.',
+    image: 'https://placehold.co/100', // Replace with the appropriate image link
+    video: 'https://www.youtube.com/embed/sample',
+  },
 ];
 
 const TeamSection = () => {
@@ -50,9 +58,9 @@ const TeamSection = () => {
   };
 
   return (
-    <div className="bg-white py-10 px-4 md:px-10 text-center flex flex-col justify-center items-center w-full">
+    <div className="bg-gray-950 py-10 px-4 md:px-10 text-center flex flex-col justify-center items-center w-full">
       {/* Title */}
-      <h2 className="text-2xl md:text-3xl font-bold mb-8">
+      <h2 className="text-2xl lg:text-4xl text-gray-300 font-montserrat md:text-3xl font-bold mb-8">
         Meet the people <br className="hidden md:block" /> behind your project
       </h2>
 
@@ -84,9 +92,9 @@ const TeamSection = () => {
       </div>
 
       {/* Desktop Role Selector */}
-      <div className="hidden md:flex flex-wrap justify-center space-x-2 md:space-x-4 mb-6">
+      <div className="hidden md:flex flex-wrap lg:items-center lg:justify-between lg:w-[85%] space-x-2 md:space-x-4 mb-6">
         {teamRoles.map((role) => (
-          <label key={role.id} className="cursor-pointer mb-2">
+          <label key={role.id} className="cursor-pointer ">
             <input
               type="radio"
               name="role"
@@ -96,10 +104,10 @@ const TeamSection = () => {
               className="hidden"
             />
             <div
-              className={`px-4 py-2 rounded-lg ${
+              className={`px-2 py-2 rounded-lg lg:w-[180px] lg:h-[100px] flex justify-center items-center border-2 shadow-lg font-montserrat ${
                 selectedRole.id === role.id
-                  ? 'bg-yellow-400 text-white'
-                  : 'bg-gray-200 text-gray-600'
+                  ? 'bg-[#90902b] text-white'
+                  : 'bg-neutral-50 text-gray-600'
               }`}
             >
               {role.title}

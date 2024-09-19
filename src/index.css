@@ -126,3 +126,52 @@ body{
   .animate-marquee {
     animation: marquee 60s linear infinite;
   }
+
+
+  /* Border Animation */
+  @layer utilities {
+    /* Card Wrapper */
+    .card-wrapper {
+      @apply relative bg-gradient-to-b from-black to-slate-800 overflow-hidden rounded-md shadow-lg;
+    }
+  
+    /* Gradient */
+    .card-wrapper::before {
+      content: "";
+      background: conic-gradient(
+        rgba(247, 241, 156, 0.925) 0deg, 
+        rgba(243, 255, 9, 0.786) 0deg, 
+        transparent 80deg
+      );
+      @apply absolute inset-0 h-[150%] w-[150%] content-[""]  animate-border-spin;
+      z-index: 0;
+    }
+  
+    /* Card Content */
+    .card-content {
+      @apply relative p-5 bg-gray-900 rounded-md text-center;
+      z-index: 1;
+      width: calc(100% - 3px);
+      height: calc(100% - 3px);
+    }
+  
+    /* Responsive Adjustments */
+    @media (max-width: 640px) {
+      .card-content {
+        padding: 3px;
+      }
+    }
+  
+    @media (min-width: 641px) and (max-width: 768px) {
+      .card-content {
+        padding: 4px;
+      }
+    }
+  
+    @media (min-width: 769px) {
+      .card-content {
+        padding: 8px;
+      }
+    }
+  }
+  

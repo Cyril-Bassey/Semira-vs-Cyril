@@ -39,9 +39,9 @@ const caseStudiesData = [
 
 const CaseStudy = () => {
   return (
-    <div className="flex flex-col items-center py-10 ">
-      <h1 className="text-4xl font-bold mb-4 px-8 ">Check these growth cases</h1>
-      <p className="text-lg text-gray-600 mb-10 px-8">
+    <div className="flex flex-col items-center py-10 bg-gray-950 pt-10">
+      <h1 className="text-4xl font-bold mb-4 px-8 text-gray-300 font-montserrat">Check these growth cases</h1>
+      <p className="text-lg text-gray-400 mb-10 px-8 font-montserrat">
         Discover how other businesses increase their revenue through our help with appointment setting.
       </p>
       <Carousel caseStudies={caseStudiesData} />

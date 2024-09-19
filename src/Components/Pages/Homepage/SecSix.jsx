@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const SecSix = () => {
   return (
-    <div className='p-10 md:p-20 bg-yellow-600 m-5 text-white flex flex-col md:flex-row items-center'>
+    <div className='p-10 md:p-20 bg-gray-950 text-white flex flex-col md:flex-row items-center'>
       {/* Text Section */}
       <div className='w-full md:w-1/2 mb-8 md:mb-0'>
         <h1 className='text-3xl md:text-4xl font-bold'>What makes us your #1 Choice</h1>
@@ -35,9 +35,9 @@ const SecSix = () => {
       {/* Image Section */}
       <div className='w-full md:w-1/2'>
         <img
-          src="https://belkins.io/assets/advantage-bg-o8Hdbbzj.webp"
+          src="https://via.placeholder.com/600"
           alt="Lead Generation"
-          className="w-full h-auto"
+          className="w-full h-auto rounded-lg"
         />
       </div>
     </div>

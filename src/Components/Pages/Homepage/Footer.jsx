@@ -3,11 +3,11 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Footer = () => {
   return (
-    <footer className="bg-white p-10">
+    <footer className="bg-gray-950 text-gray-300 p-5">
       <div className="container mx-auto px-4">
         {/* First Row */}
         <div className="flex flex-wrap justify-between border-b pb-8">
-          
+
           {/* Left Column */}
           <div className="w-full sm:w-1/2 md:w-1/4 lg:w-[30%] mb-8 mr-6">
             <h3 className="text-lg font-bold mb-4">UpperHand Market</h3>

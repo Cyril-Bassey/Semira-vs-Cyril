@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { IoMdArrowDropdown } from 'react-icons/io';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../../../images/upperhand_logo.png';
+import logo from '../../../images/Coloured PNG Logo.png';
 import { FaBars, FaTimes } from 'react-icons/fa'; // Import FaTimes
 
 const Navbar = () => {
@@ -15,18 +15,19 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full bg-white h-[80px] top-0 flex justify-between items-center border-b-2 sticky z-50 px-4 lg:px-10">
+      <div className="w-full  bg-gray-950 h-[80px] top-0 flex justify-between items-center sticky z-50 px-4 lg:px-10">
+
         {/* Logo */}
         <div className="w-[20%] flex justify-center items-center">
           <NavLink exact to={'/'}>
-            <img src={logo} alt="Logo" className="w-3/5" />
+            <img src={logo} alt="Logo" className="" />
           </NavLink>
         </div>
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex lg:w-[50%]">
           <ul className="flex justify-between w-full">
-            <li className="dropdown-container flex items-center text-black hover:text-[#FF6600] cursor-pointer text-[15px] relative">
+            <li className="dropdown-container flex items-center text-[#FFFF00] hover:text-[#90902b] cursor-pointer text-[15px] relative">
               What we do
               <span className="ml-1"><IoMdArrowDropdown /></span>
               {/* Dropdown Menu */}
@@ -51,19 +52,19 @@ const Navbar = () => {
                 </ul>
               </ul>
             </li>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[15px]">
+            <li className="flex items-center text-[#FFFF00] hover:text-[#90902b] cursor-pointer text-[15px]">
               Solutions <IoMdArrowDropdown />
             </li>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[15px]">
+            <li className="flex items-center text-[#FFFF00] hover:text-[#90902b] cursor-pointer text-[15px]">
               Customer Success <IoMdArrowDropdown />
             </li>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[15px]">
+            <li className="flex items-center text-[#FFFF00] hover:text-[#90902b] cursor-pointer text-[15px]">
               Learn <IoMdArrowDropdown />
             </li>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[15px]">
+            <li className="flex items-center text-[#FFFF00] hover:text-[#90902b] cursor-pointer text-[15px]">
               Company <IoMdArrowDropdown />
             </li>
-            <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[15px]">
+            <li className="flex items-center text-[#FFFF00] hover:text-[#90902b] cursor-pointer text-[15px]">
               Pricing <IoMdArrowDropdown />
             </li>
           </ul>
@@ -71,7 +72,7 @@ const Navbar = () => {
 
         {/* Book a Call Button */}
         <div className="hidden lg:block">
-          <button className="bg-[#FF6600] rounded-lg w-[120px] h-10 text-white hover:bg-[#773d17] font-semibold text-[15px]">
+          <button className="bg-[#FFFF00] rounded-lg w-[120px] h-10 text-black hover:bg-[#90902b] font-semibold text-[15px]">
             Book a Call
           </button>
         </div>
@@ -89,16 +90,16 @@ const Navbar = () => {
         <div className="lg:hidden z-1000 bg-white fixed top-[80px] w-full left-0">
           <ul className="flex flex-col items-center bg-white shadow-lg rounded-md py-4">
             <NavLink exact to={"/"} onClick={toggleMobileMenu}>
-              <li className="flex items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Home</li>
+              <li className="flex items-center hover:text-[#90902b] cursor-pointer text-[16px]">Home</li>
             </NavLink>
             <NavLink exact to={"/blog"} onClick={toggleMobileMenu}>
-              <li className="flex p-4 items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Blog</li>
+            <li className="flex p-4 items-center text-[#FFFF00] hover:text-[#90902b] cursor-pointer text-[16px]">Blog</li>
             </NavLink>
-            <li className="flex p-4 items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Podcast</li>
-            <li className="flex p-4 items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Resources</li>
-            <li className="flex p-4 items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Community</li>
-            <li className="flex p-4 items-center hover:text-[#FF6600] cursor-pointer text-[16px]">Pricing</li>
-            <button className="mt-4 bg-[#FF6600] rounded-lg w-[100px] h-10 text-white hover:bg-[#773d17] font-semibold text-[14px]">
+            <li className="flex p-4 items-center text-[#FFFF00] hover:text-[#90902b] cursor-pointer text-[16px]">Podcast</li>
+            <li className="flex p-4 items-center text-[#FFFF00] hover:text-[#90902b] cursor-pointer text-[16px]">Resources</li>
+            <li className="flex p-4 items-center text-[#FFFF00] hover:text-[#90902b] cursor-pointer text-[16px]">Community</li>
+            <li className="flex p-4 items-center text-[#FFFF00] hover:text-[#90902b] cursor-pointer text-[16px]">Pricing</li>
+            <button className="mt-4 bg-[#FFFF00] rounded-lg w-[100px] h-10 text-white hover:bg-[#90902b] font-semibold text-[14px]">
               Book a Call
             </button>
           </ul>

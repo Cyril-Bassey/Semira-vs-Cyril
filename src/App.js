@@ -1,4 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import '@fontsource/montserrat';
+import '@fontsource/open-sans';
+import '@fontsource/lato';
 import HomePage from "./Components/Pages/Homepage/HomePage.jsx"
 import 'flowbite';
 import AdminLayout from './Components/Pages/Admin/AdminLayout';

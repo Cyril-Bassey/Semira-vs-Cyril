@@ -2,14 +2,14 @@ import React from 'react';
 
 const GrowthSection = () => {
   return (
-    <section className="bg-gray-50 py-16  lg:px-6 w-screen flex flex-col justify-center items-center">
+    <section className="bg-gray-950 py-16  lg:px-6 w-screen flex flex-col justify-center items-center">
       <div className="w-[80%]">
       <div className="text-center mb-10">
-        <h2 className="text-4xl font-bold mb-4">Lorem ipsum dolor</h2>
-        <p className="text-lg text-gray-600 max-w-xl mx-auto mb-4">
+        <h2 className="text-4xl font-bold text-gray-300 mb-4">Lorem ipsum dolor</h2>
+        <p className="text-lg text-gray-300 max-w-xl mx-auto mb-4">
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fuga minima earum error dolores quasi adipisci saepe id eligendi nulla consequuntur, 
         </p>
-        <a href="#learn-more" className="text-orange-500 font-semibold hover:underline">
+        <a href="#learn-more" className="text-[#90902b] font-semibold hover:underline">
           Learn more about us &rarr;
         </a>
       </div>

@@ -18,13 +18,13 @@ const Carousel = ({ caseStudies }) => {
     <div className=" w-full p-6 overflow-hidden">
       <div className="hidden lg:flex items-center space-x-2 justify-end mb-4">
         <button
-          className="  bg-orange-500  w-[50px] h-[50px] text-white flex justify-center items-center rounded-full shadow-md z-10"
+          className="  bg-[#90902b] hover:bg-[#FFFF00]  w-[50px] h-[50px] text-white flex justify-center items-center rounded-full shadow-md z-10"
           onClick={goPrev}
         >
           &lt;
         </button>
         <button
-          className="  bg-orange-500  w-[50px] h-[50px] text-white flex justify-center items-center rounded-full shadow-md z-10"
+          className="  bg-[#90902b] hover:bg-[#FFFF00]  w-[50px] h-[50px] text-white flex justify-center items-center rounded-full shadow-md z-10"
           onClick={goNext}
         >
           &gt;
@@ -43,13 +43,13 @@ const Carousel = ({ caseStudies }) => {
       </div>
       <div className="flex lg:hidden items-center mt-5 space-x-2 justify-start mb-4">
         <button
-          className="  bg-orange-500  w-[50px] h-[50px] text-white flex justify-center items-center rounded-full shadow-md z-10"
+          className="  bg-[#FFFF00]  w-[50px] h-[50px] text-white flex justify-center items-center rounded-full shadow-md z-10"
           onClick={goPrev}
         >
           &lt;
         </button>
         <button
-          className="  bg-orange-500  w-[50px] h-[50px] text-white flex justify-center items-center rounded-full shadow-md z-10"
+          className="  bg-[#FFFF00]  w-[50px] h-[50px] text-white flex justify-center items-center rounded-full shadow-md z-10"
           onClick={goNext}
         >
           &gt;

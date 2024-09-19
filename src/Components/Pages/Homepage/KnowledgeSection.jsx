@@ -2,7 +2,7 @@ import React from 'react';
 
 const KnowledgeSection = () => {
   return (
-    <section className="bg-gray-50 py-12 px-6 flex flex-col items-center w-screen justify-center ">
+    <section className="bg-gray-950 text-gray-300 font-montserrat py-12 px-6 flex flex-col items-center w-screen justify-center ">
       <h2 className="text-3xl font-bold text-center mb-10">
         Expand your sales and marketing knowledge
       </h2>
@@ -11,36 +11,36 @@ const KnowledgeSection = () => {
         
         {/* Blog Section */}
         <div className="bg-white shadow-md rounded-lg p-6">
-          <h4 className="text-xl font-semibold mb-4">Blog</h4>
+          <h4 className="text-xl text-black font-semibold mb-4">Blog</h4>
           <img
             src="https://via.placeholder.com/80"
             alt="Robotic Arm"
             className="w-full h-auto rounded-md mb-4"
           />
           <ul className="list-none space-y-2">
-            <li className="border-b pb-2 hover:text-yellow-600 hover:underline">Lorem ipsum dolor, sit amet consectetur adipisicing elit</li>
-            <li className="border-b pb-2 hover:text-yellow-600 hover:underline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
-            <li className='hover:text-yellow-600 hover:underline'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li className="border-b pb-2 text-black hover:text-yellow-600 hover:underline">Lorem ipsum dolor, sit amet consectetur adipisicing elit</li>
+            <li className="border-b pb-2 text-black hover:text-yellow-600 hover:underline">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </li>
+            <li className='text-black hover:text-yellow-600 hover:underline'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
           </ul>
         </div>
 
         {/* Resources Section */}
         <div className="bg-white shadow-md rounded-lg p-6">
-          <h4 className="text-xl font-semibold mb-4">Lorem </h4>
+          <h4 className="text-xl font-semibold mb-4 text-black">Lorem </h4>
           <img
             src="https://via.placeholder.com/80"
             alt="Podcast"
             className="w-full h-auto rounded-md mb-4"
           />
           <ul className="list-none space-y-2">
-            <li className="border-b pb-2 hover:text-yellow-600 hover:underline">Lorem ipsum dolor: Lorem ipsum dolor</li>
-            <li className="border-b pb-2 hover:text-yellow-600 hover:underline">Lorem ipsum dolor</li>
-            <li className='hover:text-yellow-600 hover:underline '>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li className="text-black border-b pb-2 hover:text-yellow-600 hover:underline">Lorem ipsum dolor: Lorem ipsum dolor</li>
+            <li className="text-black border-b pb-2 hover:text-yellow-600 hover:underline">Lorem ipsum dolor</li>
+            <li className='text-black hover:text-yellow-600 hover:underline '>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
           </ul>
         </div>
 
         {/* Community Section */}
-        <div className="bg-white shadow-md rounded-lg p-6">
+        <div className="bg-white shadow-md text-black rounded-lg p-6">
           <h4 className="text-xl font-semibold mb-4">Community</h4>
           <img
             src="https://via.placeholder.com/80"
